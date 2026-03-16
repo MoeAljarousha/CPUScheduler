@@ -34,7 +34,7 @@ public class SJFScheduler {
 
         processList.sort(
                 Comparator.comparingInt((Process p) -> p.arrivalTime)
-                        .thenComparingInt(p -> Integer.parseInt(p.pid.substring(1)))
+                        .thenComparing(p -> p.pid)
         );
 
         int totalProcesses = processList.size();
@@ -51,7 +51,7 @@ public class SJFScheduler {
                 readyQueue.sort(
                         Comparator.comparingInt((Process p) -> p.burstTime)
                                 .thenComparingInt(p -> p.arrivalTime)
-                                .thenComparingInt(p -> Integer.parseInt(p.pid.substring(1)))
+                                .thenComparing(p -> p.pid)
                 );
 
                 Process current = readyQueue.removeFirst();

@@ -1,0 +1,38 @@
+{
+  "policy" : "RR",
+  "gantt" : [ {
+    "pid" : "1",
+    "start" : 0,
+    "end" : 2
+  }, {
+    "pid" : "2",
+    "start" : 4,
+    "end" : 6
+  }, {
+    "pid" : "3",
+    "start" : 8,
+    "end" : 9
+  }, {
+    "pid" : "1",
+    "start" : 10,
+    "end" : 12
+  }, {
+    "pid" : "4",
+    "start" : 14,
+    "end" : 16
+  }, {
+    "pid" : "5",
+    "start" : 18,
+    "end" : 20
+  }, {
+    "pid" : "5",
+    "start" : 22,
+    "end" : 24
+  } ],
+  "metrics" : {
+    "turnaround" : { },
+    "waiting" : { },
+    "avg_turnaround" : "NaN",
+    "avg_waiting" : "NaN"
+  }
+}

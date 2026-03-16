@@ -1,0 +1,9 @@
+{
+  "policy": "RR",
+  "quantum": 2,
+  "jobs": [
+    { "pid": "A", "arrival": 0, "burst": 7 },
+    { "pid": "B", "arrival": 2, "burst": 4 },
+    { "pid": "C", "arrival": 4, "burst": 1 }
+  ]
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c8e60d4-8904-4eb3-bf1b-717156bd5c2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FIFOScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FIFOScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PriorityScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriorityScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoundRobinScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoundRobinScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SJFScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SJFScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/json1.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/examples/json1.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/json2.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/examples/json2.JSON" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3Acg5Kz1JDa0leoRcnGEgOtf6A6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\moham\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\Shell Script\\shellcheck.exe",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/moham/IdeaProjects/CPUScheduler/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/moham/IdeaProjects/CPUScheduler/src/Main.java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\IdeaProjects\CPUScheduler\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\IdeaProjects\CPUScheduler" />
+      <recent name="C:\Users\moham\IdeaProjects\CPUScheduler\src" />
+      <recent name="C:\Users\moham\IdeaProjects\CPUScheduler\lib" />
+      <recent name="C:\Users\moham\IdeaProjects\CPUScheduler\src\Examples" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CPUScheduler" />
+      <option name="PROGRAM_PARAMETERS" value="json1.JSON json2.JSON" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c8e60d4-8904-4eb3-bf1b-717156bd5c2a" name="Changes" comment="" />
+      <created>1772897090384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772897090384</updated>
+      <workItem from="1772897094630" duration="10723000" />
+      <workItem from="1772915568903" duration="6983000" />
+      <workItem from="1773070397662" duration="3586000" />
+      <workItem from="1773163511538" duration="1517000" />
+      <workItem from="1773333848563" duration="255000" />
+      <workItem from="1773409199032" duration="3634000" />
+      <workItem from="1773431901462" duration="21000" />
+      <workItem from="1773591922104" duration="7937000" />
+      <workItem from="1773674441955" duration="2275000" />
+      <workItem from="1773676848235" duration="3979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

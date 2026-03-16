@@ -33,7 +33,7 @@ public class FIFOScheduler {
 
         processList.sort(
                 Comparator.comparingInt((Process p) -> p.arrivalTime)
-                        .thenComparingInt(p -> Integer.parseInt(p.pid.substring(1)))
+                        .thenComparing(p -> p.pid)
         );
 
         int totalProcesses = processList.size();
