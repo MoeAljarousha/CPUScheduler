@@ -1,0 +1,29 @@
+{
+  "processes": [
+    {
+      "pid": 1,
+      "arrivalTime": 0,
+      "burstTime": 7
+    },
+    {
+      "pid": 2,
+      "arrivalTime": 2,
+      "burstTime": 4
+    },
+    {
+      "pid": 3,
+      "arrivalTime": 4,
+      "burstTime": 1
+    },
+    {
+      "pid": 4,
+      "arrivalTime": 5,
+      "burstTime": 4
+    },
+    {
+      "pid": 5,
+      "arrivalTime": 6,
+      "burstTime": 6
+    }
+  ]
+}
