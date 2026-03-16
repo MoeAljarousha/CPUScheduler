@@ -205,6 +205,58 @@ run myTest.JSON output.JSON
 ```
 
 ---
+## JSON Input Format
+
+The scheduler reads its input from a JSON file. The file must follow the structure shown below.
+
+### Required Fields
+
+The JSON file must contain the following top-level fields:
+
+| Field     | Type    | Description                                                                  |
+| --------- | ------- | ---------------------------------------------------------------------------- |
+| `policy`  | string  | The scheduling algorithm to use (e.g., `FIFO`, `SJF`, `RR`, `PRIORITY`)      |
+| `quantum` | integer | The time quantum used for Round Robin scheduling (ignored by other policies) |
+| `jobs`    | array   | A list of processes to be scheduled                                          |
+
+---
+
+## Job Object Format
+
+Each element in the `jobs` array represents a process and must contain:
+
+| Field      | Type    | Description                                                  |
+| ---------- | ------- | ------------------------------------------------------------ |
+| `pid`      | string  | Process identifier (e.g., `"A"`, `"B"`, `"P1"`)              |
+| `arrival`  | integer | Time at which the process arrives in the system              |
+| `burst`    | integer | CPU burst time required by the process                       |
+| `priority` | integer | Scheduling priority (lower numbers indicate higher priority) |
+
+---
+
+## Example Input File
+
+```json
+{
+  "policy": "PRIORITY",
+  "quantum": 2,
+  "jobs": [
+    { "pid": "A", "arrival": 0, "burst": 5, "priority": 2 },
+    { "pid": "B", "arrival": 1, "burst": 3, "priority": 1 },
+    { "pid": "C", "arrival": 2, "burst": 8, "priority": 3 },
+    { "pid": "D", "arrival": 3, "burst": 6, "priority": 1 }
+  ]
+}
+```
+
+---
+
+## Notes
+
+* The `pid` field is treated as a **string identifier** and is used to label processes in the output.
+* If two processes have equal scheduling attributes, ties are resolved using the **lexicographical order of the `pid` field**.
+* The `priority` field is only used when the selected policy requires priority scheduling.
+* The input file must be valid JSON and field names are **case sensitive**.
 
 # Output JSON File
 
